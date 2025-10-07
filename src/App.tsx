@@ -18,7 +18,6 @@ function App() {
 
     const stringedTime = `${hours}:${minutes}:${seconds}`;
     return stringedTime;
-    setTimeout(() => setTime(() => stringedTime), 1000);
   }
   
   useEffect(() => {
